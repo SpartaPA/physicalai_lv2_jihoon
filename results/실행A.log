@@ -1,0 +1,9 @@
+# 실행 A: s 10 30 30  (Kp=10.0, Ki=0, Kd=0, 속도 상한 30.0 deg/s, 목표각 +30.0 deg, 제어 주기 10ms)
+# 장비: OpenCR 1.0 (/dev/ttyACM0), Dynamixel ID 1 / Model 1030 / 1 Mbps / Protocol 2.0
+# 라즈베리파이 SSH 환경에서 수집한 시리얼 실측 출력
+target_deg:30.000 position_deg:0.000  error_deg:30.000 p_deg_s:300.000 speed_deg_s:0.000  u_deg_s:28.854 v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:2.000
+target_deg:30.000 position_deg:6.416  error_deg:23.584 p_deg_s:235.840 speed_deg_s:27.480 u_deg_s:28.854 v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:2.400
+target_deg:30.000 position_deg:18.105 error_deg:11.895 p_deg_s:118.945 speed_deg_s:27.480 u_deg_s:28.854 v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:2.800
+target_deg:30.000 position_deg:29.531 error_deg:0.469  p_deg_s:4.687   speed_deg_s:24.732 u_deg_s:4.122  v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:3.200
+target_deg:30.000 position_deg:31.992 error_deg:-1.992 p_deg_s:-19.922 speed_deg_s:2.748   u_deg_s:-19.236 v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:3.400
+target_deg:30.000 position_deg:30.146 error_deg:-0.146 p_deg_s:-1.465   speed_deg_s:-1.374 u_deg_s:0.000  v_limit_deg_s:30.000 dt_ms:10.000 kp:10.0000 ki:0.0000 kd:0.0000 t_s:3.700
